@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: blue;
+}
+
+.navbar {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-right: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+li:hover {
+  color: blue;
+}
+
+.image {
+  position: relative;
+}
+
+.title {
+  background-color: white;
+  opacity: 1;
+  border-radius: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+  left: 30%;
+  top: 30%;
+  opacity: 0.5;
+}
+
+.description {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.talk-to-us {
+  padding: 30px;
+  margin: 0;
+  background-color: #DCC423;
+  text-align: center;
+  font-size: x-large;
+  color: #333;
+}
+
